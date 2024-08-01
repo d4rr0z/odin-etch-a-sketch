@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+    width: 640px;
+    border: 2px solid black;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.square {
+    flex: 1;
+    background-color: white;
+    border: 1px solid black;
+}
